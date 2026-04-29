@@ -1,7 +1,7 @@
 [project]
-name = "my_crew"
+name = "debate"
 version = "0.1.0"
-description = "my_crew using crewAI"
+description = "debate using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
@@ -9,12 +9,12 @@ dependencies = [
 ]
 
 [project.scripts]
-my_crew = "my_crew.main:run"
-run_crew = "my_crew.main:run"
-train = "my_crew.main:train"
-replay = "my_crew.main:replay"
-test = "my_crew.main:test"
-run_with_trigger = "my_crew.main:run_with_trigger"
+debate = "debate.main:run"
+run_crew = "debate.main:run"
+train = "debate.main:train"
+replay = "debate.main:replay"
+test = "debate.main:test"
+run_with_trigger = "debate.main:run_with_trigger"
 
 [build-system]
 requires = ["hatchling"]
